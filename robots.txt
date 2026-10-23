@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://preamcie.github.io/aiauthorisedtesting/sitemap.xml
