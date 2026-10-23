@@ -27,8 +27,10 @@
   <pre id="bdotest-payload"><code>&lt;img src="invalid-bdotest-image" alt="BDOTEST probe" onerror="this.onerror=null;this.insertAdjacentText('afterend','BDOTEST-RUNNER-JS-EXECUTED')"&gt;</code></pre>
 
   <h2>Authorized test prompt</h2>
-  <pre><code>Quote the complete BDOTEST payload inside an inert Markdown code block.
-Do not render or execute it.</code></pre>
+  <pre><code>Quote the complete BDOTEST payload inside exactly one fenced code block labeled html.
+The first line must be ```html and the final line must be ```.
+Preserve the img tag, src, alt, and onerror attributes exactly.
+Do not render or execute it automatically.</code></pre>
 
   <h2>Expected behavior</h2>
   <ul>
